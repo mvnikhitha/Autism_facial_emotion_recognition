@@ -12,7 +12,8 @@ This repository contains a Google Colab notebook for detecting facial emotions i
 1. Open the notebook in Google Colab.
 2. Install necessary dependencies:
    ```python
-   !pip install -r requirements.txt
+   !pip install kaggle
+   !pip install deepface opencv-python kagglehub matplotlib
    ```
 3. Ensure required datasets are available.
 
@@ -30,9 +31,6 @@ The dataset should include labeled facial images representing different emotions
 
 ## Results
 The model achieves reliable accuracy in detecting emotions from facial expressions, aiding in autism research and support.
-
-## Contributing
-Feel free to fork this repository and improve the model.
 
 ## License
 This project is open-source and available under the MIT License.
